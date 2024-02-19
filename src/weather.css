@@ -52,12 +52,15 @@ main {
 .weather-app-data {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .weather-app-city {
     margin: 0;
     font-size: 38px;
     line-height: 48px;
+    font-weight: bold;
+    text-align: left;
     
 }
 
