@@ -6,7 +6,7 @@ import Weather from './weather';
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <h1>React Weather App</h1>
       <Weather defaultCity="London"/>
       <footer>
         This project was coded by{" "}
