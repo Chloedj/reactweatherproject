@@ -18,7 +18,7 @@ export default function WeatherTemperature(props) {
             
         <div className="weather-app-temperature-container">
         <div className="weather-app-temperature" id="temperature">{Math.round(props.celsius)}</div>
-                        <div className="weather-app-unit">°C | <a href="/" onClick={convertToFarenheit}>°F</a></div>
+                        <div className="weather-app-unit">°C</div>
                         </div>
         );
     } else {let farenheit = (props.celsius * 9) / 5 + 32 

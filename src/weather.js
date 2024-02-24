@@ -61,6 +61,7 @@ function handleCityChange(event) {
                 </form>
             </header>
             <WeatherInfo data={weatherData}/>
+            
          </div>
             
     )}
