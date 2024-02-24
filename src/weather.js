@@ -13,6 +13,7 @@ export default function Weather(props) {
         console.log(response.data);
         setWeatherData({
             ready: true,
+            coordinates: response.data.coord,
             temperature: response.data.main.temp,
             humidity: response.data.main.humidity,
             date: new Date(response.data.dt * 1000),
@@ -60,7 +61,7 @@ function handleCityChange(event) {
                 </form>
             </header>
             <WeatherInfo data={weatherData}/>
-            </div>
+         </div>
             
     )}
     else {

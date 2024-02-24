@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
                         <WeatherTemperature celsius={props.data.temperature} />
                         </div>
                 </div>
-                <WeatherForecast />
+                <WeatherForecast coords={props.data.coordinates}/>
                 </div>
             
     )
